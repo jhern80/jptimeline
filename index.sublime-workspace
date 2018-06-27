@@ -1,0 +1,322 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 6187,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": ".demo\n{\n\tpadding: 100px 0;\n\t\n}\n.heading-title\n{\n\tmargin-bottom: 100px;\n}\n.main-timeline{ position: relative; }\n\n.main-timeline:before,\n.main-timeline:after{\n    content: \"\";\n    display: block;\n    width: 100%;\n    clear: both;\n}\n\n.main-timeline:before{\n    width: 2px;\n    height: 100%;\n    background: #e5e9ed;\n    margin: 0 auto;\n    position: absolute;\n    top: 0;\n    left: 0;\n    right: 0;\n}\n\n.main-timeline .timeline{\n    width: 50%;\n    padding-right: 30px;\n    float: left;\n    position: relative;\n}\n\n.main-timeline .timeline:last-child{\n    margin-bottom: 0;\n}\n\n.main-timeline .timeline:after{\n    content: \"\";\n    width: 12px;\n    height: 12px;\n    border-radius: 50%;\n    background: #e5e9ed;\n    position: absolute;\n    top: 0;\n    right: -6px;\n    transition: all 0.3s ease 0s;\n}\n\n.main-timeline .timeline:hover:after{\n    background: #e3b457;\n    transform:  scale(1.3);\n}\n\n.main-timeline .timeline-content{\n    padding: 50px 40px;\n    background: #e5e9ed;\n    position: relative;\n    transition: all 0.3s ease 0s;\n}\n\n.main-timeline .timeline-content:hover{\n    background: #e3b457;\n}\n\n.main-timeline .timeline-content:after{\n    content: \"\";\n    border-top: 30px solid #e5e9ed;\n    border-right: 15px solid transparent;\n    position: absolute;\n    top: 0;\n    right: -15px;\n    transition: all 0.3s ease 0s;\n}\n\n.main-timeline .timeline-content:hover:after{\n    border-top-color: #e3b457;\n}\n\n.main-timeline .year{\n    display: block;\n    font-size: 24px;\n    color: #e3b457;\n    line-height: 32px;\n    margin: 0;\n    transition: all 0.3s ease 0s;\n}\n\n.main-timeline .post{\n    display: block;\n    font-size: 20px;\n    color: #22272c;\n    padding-bottom: 8px;\n    margin: 8px 0 15px 0;\n    position: relative;\n}\n\n.main-timeline .post:after{\n    content: \"\";\n    display: block;\n    width: 30px;\n    border-top: 2px solid #22272c;\n    position: absolute;\n    bottom: 0;\n    left: 0;\n    transition: all 0.3s ease 0s;\n}\n\n.main-timeline .timeline-content:hover .post:after{\n    border-top-color: #fff;\n}\n\n.main-timeline .title{\n    font-size: 18px;\n    font-weight: 500;\n    color: #e3b457;\n    text-transform: capitalize;\n    transition: all 0.3s ease 0s;\n}\n\n.main-timeline .description{\n    font-size: 14px;\n    color: #7a7e82;\n    line-height: 25px;\n}\n\n.main-timeline .timeline-content:hover .year,\n.main-timeline .timeline-content:hover .title,\n.main-timeline .timeline-content:hover .description{\n    color: #fff;\n}\n\n.main-timeline .timeline:nth-child(2n){\n    padding: 0 0 0 30px;\n    margin-top: 75px;\n}\n\n.main-timeline .timeline:nth-child(2n):after{\n    right: auto;\n    left: -6px;\n}\n\n.main-timeline .timeline:nth-child(2n) .timeline-content:after{\n    border-left: 15px solid transparent;\n    border-right: none;\n    left: -15px;\n    right: auto;\n}\n\n@media only screen and (max-width: 767px){\n    .main-timeline:before{\n        margin: 0;\n        left: 0;\n    }\n    .main-timeline .timeline{\n        width: 100%;\n        float: none;\n        padding: 0 0 0 30px;\n        margin-bottom: 20px;\n    }\n    .main-timeline .timeline:after{\n        right: auto;\n        left: -6px;\n    }\n    .main-timeline .timeline-content{\n        padding: 20px;\n    }\n    .main-timeline .timeline-content:after{\n        border-left: 15px solid transparent;\n        border-right: none;\n        left: -15px;\n        right: auto;\n    }\n    .main-timeline .timeline:nth-child(2n){\n        margin-top: 0;\n    }\n\n    .mytimeline{\n    border-top: 30px solid #e5e9ed;\n    border-right: 15px solid transparent;\n    position: absolute;\n    top: 0;\n    right: -15px;\n    transition: all 0.3s ease 0s;\n\n\n    }\n}@charset \"utf-8\";\n/* CSS Document */\n\n",
+			"file": "css/style.css",
+			"file_size": 3853,
+			"file_write_time": 131745169502346956,
+			"settings":
+			{
+				"buffer_size": 3637,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"A File Icon: Revert to a Freshly Installed State"
+			],
+			[
+				"ins",
+				"A File Icon: Settings"
+			],
+			[
+				"a file icon",
+				"A File Icon: Settings"
+			],
+			[
+				"mate",
+				"Material Theme: Activate theme"
+			],
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"packa",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 200.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/jhern/Desktop/Timeline-Style-Demo-8",
+		"/C/Users/jhern/Desktop/Timeline-Style-Demo-8/Timeline Style  Demo 8"
+	],
+	"file_history":
+	[
+		"/C/Users/jhern/Desktop/Timeline-Style-Demo-8/Timeline Style  Demo 8/index.html",
+		"/C/Users/jhern/Desktop/startbootstrap-resume-gh-pages/css/resume.css",
+		"/C/Users/jhern/Desktop/startbootstrap-resume-gh-pages/index.html",
+		"/C/Users/jhern/Desktop/online-clone-netflix-master/online-clone-netflix-master/index.html",
+		"/C/Users/jhern/Documents/portfolio/scr/js/main.js",
+		"/C/Users/jhern/Documents/index1.html",
+		"/C/Users/jhern/Desktop/Porfolio page.scss",
+		"/C/Users/jhern/Documents/portfolio/after sell to buy list.txt",
+		"/C/Users/jhern/Pictures/1_pixFq7k28LKsABpDNRCjJw (1).png",
+		"/C/Users/jhern/Desktop/theme kit/material-kit-html-v2.0.3/assets/js/material-kit.js",
+		"/C/Users/jhern/Desktop/material kit HTML/src/components/Header/Header.jsx",
+		"/C/Users/jhern/ReduxSimpleStarter/src/index.js",
+		"/C/Users/jhern/ReduxSimpleStarter/src/components/search_bar.js",
+		"/C/Users/jhern/ReduxSimpleStarter/src/components/video_detail.js",
+		"/C/Users/jhern/ReduxSimpleStarter/src/components/video_list_item.js",
+		"/C/Users/jhern/ReduxSimpleStarter/src/components/video_list.js",
+		"/C/Users/jhern/ReduxSimpleStarter/index.html",
+		"/C/Users/jhern/Desktop/material kit/src/views/ProfilePage/ProfilePage.jsx",
+		"/C/Users/jhern/Desktop/project react/node_modules/init/package.json",
+		"/C/Users/jhern/Desktop/project react/package.json",
+		"/C/Users/jhern/Desktop/project react/script.js",
+		"/C/Users/jhern/Desktop/project react/index.html",
+		"/C/Users/jhern/AppData/Roaming/Sublime Text 3/Packages/A File Icon/.sublime/A File Icon.sublime-settings",
+		"/C/Users/jhern/AppData/Roaming/Sublime Text 3/Packages/User/A File Icon.sublime-settings",
+		"/C/Users/jhern/Documents/portfolio/react app/index.html",
+		"/C/Users/jhern/Documents/portfolio/joseh.css",
+		"/C/Users/jhern/Documents/portfolio/joseh.html",
+		"/C/Users/jhern/Documents/portfolio/index.html",
+		"/C/Users/jhern/Documents/portfolio/portfolio.html",
+		"/C/Users/jhern/Documents/index.html",
+		"/C/Users/jhern/Desktop/project.css",
+		"/C/Users/jhern/Desktop/2nd project.html",
+		"/C/Users/jhern/Desktop/pokemon.html",
+		"/C/Users/jhern/Desktop/beto.html",
+		"/C/Users/jhern/Desktop/New Project.html"
+	],
+	"find":
+	{
+		"height": 70.4
+	},
+	"find_in_files":
+	{
+		"height": 160.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"95",
+			"h6",
+			"timelin",
+			".d-flex w-100",
+			"d-flex w-100",
+			"projects",
+			"projec"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6187,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6049,
+								6049
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1747.2,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3637,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3474,
+								3475
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 68.8
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 162.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 239.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
